@@ -2,17 +2,16 @@
 # SkillConnect AI
 ## Initial Project Structure Plan
 
-Project Title: SkillConnect AI – An AI-Powered Smart Local Service Marketplace
+Project Title: SkillConnect AI – An AI-Powered Smart Local Service Marketplace with intelligent Provider Matching 
 
 Technology Stack:
 - Frontend: React.js
 - Backend: Node.js + Express.js
-- Database: MongoDB
+- Database: PostgresSQL
 - AI Integration: Google Gemini API
 - Authentication: JWT
 - Deployment: Vercel + Render
 
----
 
 ## 1. Frontend Structure (React.js)
 
@@ -132,7 +131,7 @@ backend/
    - Monitor Bookings
    - Manage Reviews
 
-## 4. Database Collections (MongoDB)
+## 4. Database Collections (PostgresSQL)
 
 - Users
 - Services
@@ -158,12 +157,11 @@ Phase 7: Admin Dashboard
 
 Phase 8: Testing, Bug Fixing and Deployment
 
----
 
 ## Project Status
 
 Initial Planning Stage
 
-This structure is a preliminary development plan.
+This structure is a preliminary development plan. The plan can be changed in future.
 Folders, files, modules, and features may be modified or expanded during development based on project requirements.
 
