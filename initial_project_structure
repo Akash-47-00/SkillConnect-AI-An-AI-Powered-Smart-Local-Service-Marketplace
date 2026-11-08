@@ -1,1 +1,169 @@
 
+# SkillConnect AI
+## Initial Project Structure Plan
+
+Project Title: SkillConnect AI – An AI-Powered Smart Local Service Marketplace
+
+Technology Stack:
+- Frontend: React.js
+- Backend: Node.js + Express.js
+- Database: MongoDB
+- AI Integration: Google Gemini API
+- Authentication: JWT
+- Deployment: Vercel + Render
+
+---
+
+## 1. Frontend Structure (React.js)
+
+frontend/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   └── Images, icons, and other static files
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── ServiceCard.jsx
+│   │   └── Chatbot.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── CustomerDashboard.jsx
+│   │   ├── ProviderDashboard.jsx
+│   │   ├── AdminDashboard.jsx
+│   │   ├── Services.jsx
+│   │   ├── ServiceDetails.jsx
+│   │   └── Profile.jsx
+│   │
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+
+## 2. Backend Structure (Node.js + Express.js)
+
+backend/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   ├── authController.js
+│   ├── userController.js
+│   ├── serviceController.js
+│   ├── bookingController.js
+│   └── reviewController.js
+│
+├── models/
+│   ├── User.js
+│   ├── Service.js
+│   ├── Booking.js
+│   └── Review.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   ├── userRoutes.js
+│   ├── serviceRoutes.js
+│   ├── bookingRoutes.js
+│   └── reviewRoutes.js
+│
+├── middleware/
+│   └── authMiddleware.js
+│
+├── ai/
+│   ├── chatbot.js
+│   └── recommendation.js
+│
+├── utils/
+│   └── helpers.js
+│
+└── server.js
+
+## 3. Main System Modules
+
+1. User Authentication Module
+   - Customer Registration and Login
+   - Service Provider Registration and Login
+   - Admin Authentication
+   - Role-Based Access
+
+2. Customer Module
+   - Customer Profile
+   - Search Local Services
+   - View Service Providers
+   - Book Services
+   - Submit Reviews and Ratings
+
+3. Service Provider Module
+   - Provider Profile
+   - Add and Manage Services
+   - Manage Booking Requests
+   - View Customer Requests
+
+4. AI Integration Module
+   - AI Chatbot Assistant
+   - Smart Service Recommendations
+   - Customer Requirement Analysis
+   - Relevant Provider Suggestions
+
+5. Booking Module
+   - Create Booking Requests
+   - Accept or Reject Requests
+   - Booking Status Management
+   - Booking History
+
+6. Admin Module
+   - Manage Users
+   - Manage Service Providers
+   - Manage Service Categories
+   - Monitor Bookings
+   - Manage Reviews
+
+## 4. Database Collections (MongoDB)
+
+- Users
+- Services
+- Bookings
+- Reviews
+- Notifications
+
+## 5. Development Phases
+
+Phase 1: Project Setup and Database Connection
+
+Phase 2: User Authentication and Role Management
+
+Phase 3: Customer and Provider Dashboards
+
+Phase 4: Service Listing and Search System
+
+Phase 5: Booking and Review System
+
+Phase 6: AI Chatbot and Recommendation Integration
+
+Phase 7: Admin Dashboard
+
+Phase 8: Testing, Bug Fixing and Deployment
+
+---
+
+## Project Status
+
+Initial Planning Stage
+
+This structure is a preliminary development plan.
+Folders, files, modules, and features may be modified or expanded during development based on project requirements.
+
