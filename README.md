@@ -15,7 +15,7 @@ The platform aims to make finding and booking local services easier, faster, and
 
 ## 🤝 Team information
 
-| No. | Member Name           | Student ID  | Section | Role   |
+| No | Member Name           | Student ID  | Section | Role   |
 |:---:|-----------------------|-------------|:-------:|:------:|
 | 1   | Tanvir Islam          | 11230321301 | 7B      | Member |
 | 2   | Reajul Islam Talukder | 11230321461 | 7B      | Leader |
