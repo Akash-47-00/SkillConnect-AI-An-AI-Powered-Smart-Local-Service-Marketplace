@@ -1,10 +1,5 @@
 <h1 align="center">🤖 SkillConnect AI</h1>
-
-<p align="center">
- <h2> An AI-powered smart local service marketplace with intelligent provider matching. </h2>
-</p>
-
----
+<h2 align="center">An AI-powered smart local service marketplace with intelligent provider matching</h2>
 
 SkillConnect AI is an AI-powered platform that connects customers with skilled professionals and local service providers. It allows users to describe their problems in natural language, and AI helps identify the required service category and skills before recommending suitable professionals.
 
