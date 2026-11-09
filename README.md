@@ -54,20 +54,17 @@ The platform aims to make finding and booking local services easier, faster, and
    - Manage service categories and skills.
    - Monitor bookings and reviews.
 
-🏗️ Technology Stack
+## 🛠️ Technology Stack
 
-Technology| Purpose
-Next.js| Full-stack application framework
-React| Frontend user interface
-TypeScript| Type-safe development
-Tailwind CSS| UI styling
-PostgreSQL| Relational database
-Prisma ORM| Database management
-Google Gemini API| AI-powered problem understanding
-Auth.js| User authentication
-Zod| Data validation
-Lucide React| Icons
-Git & GitHub| Version control and team collaboration
-Vercel| Application deployment
+| Category | Technology |
+|---|---|
+| Frontend | React.js |
+| Backend | Node.js, Express.js |
+| Database | PostgreSQL |
+| AI Integration | Google Gemini API |
+| Authentication | JSON Web Token (JWT) |
+| Frontend Deployment | Vercel |
+| Backend Deployment | Render |
+| Development Tools | Visual Studio Code, Git, GitHub |
 
 Architecture: The project will use a Next.js Full-Stack Architecture, allowing frontend and backend functionality to be developed within a single application.
