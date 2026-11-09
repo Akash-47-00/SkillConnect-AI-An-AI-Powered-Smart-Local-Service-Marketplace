@@ -28,7 +28,7 @@ The platform aims to make finding and booking local services easier, faster, and
 
 ---
 
-## ✨ Proposed Features (Key Features)
+## ✨ Proposed Features
 
 ### 1. User Authentication
 - User registration and login.
