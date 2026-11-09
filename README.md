@@ -86,5 +86,3 @@ The platform aims to make finding and booking local services easier, faster, and
 | Frontend Deployment | Vercel |
 | Backend Deployment | Render |
 | Development Tools | Visual Studio Code, Git, GitHub |
-
-Architecture: The project will use a Next.js Full-Stack Architecture, allowing frontend and backend functionality to be developed within a single application.
