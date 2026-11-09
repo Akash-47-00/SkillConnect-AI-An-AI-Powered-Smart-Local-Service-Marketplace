@@ -1,7 +1,7 @@
 <h1 align="center">🤖 SkillConnect AI</h1>
 
 <p align="center">
-  An AI-powered smart local service marketplace with intelligent provider matching.
+ <h2> An AI-powered smart local service marketplace with intelligent provider matching. </h2>
 </p>
 
 ---
@@ -18,7 +18,7 @@ The platform aims to make finding and booking local services easier, faster, and
 
 ---
 
-🤝 Team information
+## 🤝 Team information
 
 | No. | Member Name           | Student ID  | Section | Role   |
 |:---:|-----------------------|-------------|:-------:|:------:|
@@ -28,53 +28,46 @@ The platform aims to make finding and booking local services easier, faster, and
 
 ---
 
-✨ Proposed Features (Key Features)
+## ✨ Proposed Features (Key Features)
 
-1. User Authentication
-   
-   - User registration and login.
-   - Separate roles for customers, service providers, and administrators.
+### 1. User Authentication
+- User registration and login.
+- Separate roles for customers, service providers, and administrators.
 
-2. AI-Powered Problem Understanding
-   
-   - Customers describe their problems using natural language.
-   - AI identifies the relevant service category and required skills.
-   - Generates a short summary of the problem.
-   - Planned support for Bangla and English.
+### 2. AI-Powered Problem Understanding
+- Customers describe their problems using natural language.
+- AI identifies the relevant service category and required skills.
+- Generates a short summary of the problem.
+- Planned support for Bangla and English.
 
-3. Intelligent Professional Matching
-   
-   - Recommends suitable professionals based on customer requirements.
-   - Matches providers using skills, location, ratings, experience, and availability.
-   - Ranks recommendations based on matching scores.
+### 3. Intelligent Professional Matching
+- Recommends suitable professionals based on customer requirements.
+- Matches providers using skills, location, ratings, experience, and availability.
+- Ranks recommendations based on matching scores.
 
-4. Service Provider Management
-   
-   - Create and manage professional profiles.
-   - Add skills, experience, and service categories.
-   - Manage availability and booking requests.
+### 4. Service Provider Management
+- Create and manage professional profiles.
+- Add skills, experience, and service categories.
+- Manage availability and booking requests.
 
-5. Booking Management
-   
-   - Customers can request services from professionals.
-   - Providers can accept or reject booking requests.
-   - Users can track booking status and history.
+### 5. Booking Management
+- Customers can request services from professionals.
+- Providers can accept or reject booking requests.
+- Users can track booking status and history.
 
-6. Ratings and Reviews
-   
-   - Customers can rate completed services.
-   - Submit reviews about professionals.
-   - View provider ratings and feedback.
+### 6. Ratings and Reviews
+- Customers can rate completed services.
+- Submit reviews about professionals.
+- View provider ratings and feedback.
 
-7. Admin Dashboard
-   
-   - Manage customers and service providers.
-   - Manage service categories and skills.
-   - Monitor bookings and reviews.
+### 7. Admin Dashboard
+- Manage customers and service providers.
+- Manage service categories and skills.
+- Monitor bookings and reviews.
   
 ---
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 | Category | Technology |
 |---|---|
