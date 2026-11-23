@@ -81,7 +81,7 @@ The platform aims to make finding and booking local services easier, faster, and
 
 The following diagram illustrates the initial architecture of SkillConnect AI, showing the interaction between users, frontend, backend, database, and external AI services.
 
-```mermaid
+mermaid
 flowchart TB
 
     %% Users
@@ -125,7 +125,7 @@ flowchart TB
     BACKEND <--> DB
     CHAT <--> GEMINI
     REC <--> GEMINI
-```
+
 
 ### Component Overview
 
