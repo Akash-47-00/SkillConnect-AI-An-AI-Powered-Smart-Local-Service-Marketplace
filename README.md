@@ -74,3 +74,68 @@ The platform aims to make finding and booking local services easier, faster, and
 | Frontend Deployment | Vercel |
 | Backend Deployment | Render |
 | Development Tools | Visual Studio Code, Git, GitHub |
+
+
+
+## Initial System Architecture Diagram
+
+The following diagram illustrates the initial architecture of SkillConnect AI, showing the interaction between users, frontend, backend, database, and external AI services.
+
+```mermaid
+flowchart TB
+
+    %% Users
+    Customer[Customer]
+    Provider[Service Provider]
+    Admin[Admin]
+
+    %% Frontend
+    subgraph FRONTEND["Frontend - React.js (Vercel)"]
+        CD[Customer Dashboard]
+        PD[Provider Dashboard]
+        AD[Admin Dashboard]
+        CI[Chatbot Interface]
+    end
+
+    %% Backend
+    subgraph BACKEND["Backend - Node.js + Express.js (Render)"]
+        AUTH[Authentication (JWT)]
+        USER[User, Profile & Category Management]
+        SEARCH[Search & Filter]
+        BOOK[Booking & Notification]
+        REC[AI Recommendation]
+        CHAT[AI Chatbot]
+    end
+
+    %% Database
+    DB[(PostgreSQL Database)]
+
+    %% External AI Service
+    GEMINI[Google Gemini API<br/>External Service]
+
+    %% User Connections
+    Customer <--> FRONTEND
+    Provider <--> FRONTEND
+    Admin <--> FRONTEND
+
+    %% Frontend to Backend
+    FRONTEND <-->|HTTPS / REST API<br/>JSON + JWT| BACKEND
+
+    %% Backend Connections
+    BACKEND <--> DB
+    CHAT <--> GEMINI
+    REC <--> GEMINI
+```
+
+### Component Overview
+
+| Layer | Technology / Component |
+|---|---|
+| Users | Customer, Service Provider, Admin |
+| Frontend | React.js (Vercel) |
+| Backend | Node.js + Express.js (Render) |
+| Authentication | JWT |
+| Database | PostgreSQL |
+| AI Services | Google Gemini API |
+
+
